@@ -60,13 +60,13 @@ if (isset($_POST['submitSignup'])) {
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
 
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="/assets/css/bootstrap-icons.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap-icons.css" rel="stylesheet">
 
-    <link href="/assets/css/main.css" rel="stylesheet">
+    <link href="./assets/css/main.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
@@ -114,7 +114,7 @@ if (isset($_POST['submitSignup'])) {
                         <?php }
                         if (isset($_SESSION['loginUsername']) && !empty($_SESSION['loginUsername'])) { ?>
                             <li class="nav-item">
-                                <a class="nav-link" href="/sentiment-analysis.php">Analysis</a>
+                                <a class="nav-link" href="./sentiment-analysis.php">Analysis</a>
                             </li>
                         <?php } ?>
                     </ul>
@@ -204,12 +204,12 @@ if (isset($_POST['submitSignup'])) {
     </main>
 
     <!-- JAVASCRIPT FILES -->
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
-    <script src="/assets/js/jquery.sticky.js"></script>
-    <script src="/assets/js/click-scroll.js"></script>
-    <script src="/assets/js/custom.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery.sticky.js"></script>
+    <script src="./assets/js/click-scroll.js"></script>
+    <script src="./assets/js/custom.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

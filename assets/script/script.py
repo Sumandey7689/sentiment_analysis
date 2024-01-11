@@ -1,13 +1,12 @@
 from textblob import TextBlob
-from spellchecker import SpellChecker
+
 import sys
 
-spell = SpellChecker()
 target_words = ["kill", "suicide"]
 
 
 def analyze_sentiment(text, target_words):
-    corrected_text = ' ' . join([spell.correction(word) for word in text.split()])
+    corrected_text = text
 
     analysis = TextBlob(corrected_text.lower())
     for target_word in target_words:

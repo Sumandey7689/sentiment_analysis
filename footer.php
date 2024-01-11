@@ -14,15 +14,15 @@
 
                 <ul class="site-footer-links">
                     <li class="site-footer-link-item">
-                        <a href="/index.php" class="site-footer-link">Home</a>
+                        <a href="./index.php" class="site-footer-link">Home</a>
                     </li>
 
                     <li class="site-footer-link-item">
-                        <a href="/index.php" class="site-footer-link">How it works</a>
+                        <a href="./index.php" class="site-footer-link">How it works</a>
                     </li>
 
                     <li class="site-footer-link-item">
-                        <a href="/index.php" class="site-footer-link">FAQs</a>
+                        <a href="./index.php" class="site-footer-link">FAQs</a>
                     </li>
                 </ul>
             </div>

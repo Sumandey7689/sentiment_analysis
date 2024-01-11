@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $text = $_POST["sentiment-text"];
             $text = escapeshellarg($text);
 
-            $command = "python E:\\Hackathon\\assets\\script\\script.py $text";
+            $command = "python D:\\Hackathon\\sentiment_analysis\\assets\\script\\script.py $text";
             $sentiment_score = shell_exec($command);
 
             if ($sentiment_score !== null) {
@@ -72,13 +72,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
 
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="/assets/css/bootstrap-icons.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap-icons.css" rel="stylesheet">
 
-    <link href="/assets/css/main.css" rel="stylesheet">
+    <link href="./assets/css/main.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
@@ -177,7 +177,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                     </div>
                                 </div>
 
-                                <img src="/assets/images/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
+                                <img src="./assets/images/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
                             </a>
                         </div>
                     </div>
@@ -185,7 +185,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <div class="col-lg-6 col-12">
                         <div class="custom-block custom-block-overlay">
                             <div class="d-flex flex-column h-100">
-                                <img src="/assets/images/businesswoman-using-tablet-analysis.jpg" class="custom-block-image img-fluid" alt="">
+                                <img src="./assets/images/businesswoman-using-tablet-analysis.jpg" class="custom-block-image img-fluid" alt="">
 
                                 <div class="custom-block-overlay-text d-flex">
                                     <div>
@@ -270,7 +270,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                                                     </div>
 
-                                                    <img src="/assets/images/topics/sentiment-analysis-tools.jpg" class="custom-block-image img-fluid" alt="">
+                                                    <img src="./assets/images/topics/sentiment-analysis-tools.jpg" class="custom-block-image img-fluid" alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -289,7 +289,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                                                     </div>
 
-                                                    <img src="/assets/images/topics/sentiment-analysis-techniques.png" class="custom-block-image img-fluid" alt="">
+                                                    <img src="./assets/images/topics/sentiment-analysis-techniques.png" class="custom-block-image img-fluid" alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -306,7 +306,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                                         </div>
                                                     </div>
 
-                                                    <img src="/assets/images/topics/sentiment-analysis-social-techniques.jpg" class="custom-block-image img-fluid" alt="">
+                                                    <img src="./assets/images/topics/sentiment-analysis-social-techniques.jpg" class="custom-block-image img-fluid" alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -329,7 +329,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                                                     </div>
 
-                                                    <img src="/assets/images/topics/sentiment-analysis-advertising.jpg" class="custom-block-image img-fluid" alt="">
+                                                    <img src="./assets/images/topics/sentiment-analysis-advertising.jpg" class="custom-block-image img-fluid" alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -346,7 +346,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                                         </div>
                                                     </div>
 
-                                                    <img src="/assets/images/topics/sentiment-analysis-video-content.jpg" class="custom-block-image img-fluid" alt="">
+                                                    <img src="./assets/images/topics/sentiment-analysis-video-content.jpg" class="custom-block-image img-fluid" alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -363,7 +363,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                                         </div>
                                                     </div>
 
-                                                    <img src="/assets/images/topics/sentiment-analysis-viral-tweets.jpg" class="custom-block-image img-fluid" alt="">
+                                                    <img src="./assets/images/topics/sentiment-analysis-viral-tweets.jpg" class="custom-block-image img-fluid" alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -384,7 +384,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                                         </div>
                                                     </div>
 
-                                                    <img src="/assets/images/topics/sentiment-analysis-graduation.png" class="custom-block-image img-fluid" alt="">
+                                                    <img src="./assets/images/topics/sentiment-analysis-graduation.png" class="custom-block-image img-fluid" alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -401,7 +401,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                                         </div>
                                                     </div>
 
-                                                    <img src="/assets/images/topics/sentiment-analysis-educators.jpg" class="custom-block-image img-fluid" alt="">
+                                                    <img src="./assets/images/topics/sentiment-analysis-educators.jpg" class="custom-block-image img-fluid" alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -497,7 +497,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <div class="clearfix"></div>
 
                     <div class="col-lg-5 col-12">
-                        <img src="/assets/images/faq_graphic.jpg" class="img-fluid" alt="FAQs">
+                        <img src="./assets/images/faq_graphic.jpg" class="img-fluid" alt="FAQs">
                     </div>
 
                     <div class="col-lg-6 col-12 m-auto">
@@ -561,12 +561,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <?php include 'footer.php' ?>
 
     <!-- JAVASCRIPT FILES -->
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
-    <script src="/assets/js/jquery.sticky.js"></script>
-    <script src="/assets/js/click-scroll.js"></script>
-    <script src="/assets/js/custom.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery.sticky.js"></script>
+    <script src="./assets/js/click-scroll.js"></script>
+    <script src="./assets/js/custom.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
