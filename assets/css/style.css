@@ -1,0 +1,47 @@
+.tm-content-row {
+  margin: 0 -15px;
+}
+
+.tm-block-col {
+  padding: 15px;
+}
+
+.tm-bg-primary-dark {
+  background-color: #435c70;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.chart-text-color {
+  color: white;
+}
+
+.tm-block-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+canvas {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.tm-block-taller {
+  min-height: 400px;
+}
+
+#pieChartContainer {
+  text-align: center;
+}
+
+#pieChart {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
